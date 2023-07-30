@@ -1,16 +1,52 @@
-# react-around-api-full
+# Around the U.S. Back End
 
-![213898105-5b145fbc-9b7a-4e1e-9e1f-96c0c6a9f65a](https://github.com/aegisnull/react-around-api-full_es/assets/27663011/b8f431c5-49c0-4b16-ad33-9a25f34032ee)
+## About
 
+This project is a back end for the Arount the U.S. app. It's built using Node.js and Express.js. It's connected to a local MongoDB database.
 
-The API of "Around the U.S." with authorization and registration handled by the back-end server.
+## Features
 
-This repository contains the full API of "Around the U.S." project that features user authorization and user registration and handles cards and users. Please add to this readme:
+- routes for users and cards
+- controllers for users and cards
+- Mongoose Schema for users and cards
+- connection to a MongoDB database
 
-- a link to repository with the complete React application which uses this API;
-- a link to the website that hosts your API.
+## Future Features
 
-## Links to websites
+- Add authentication and authorization
 
-- [Around the U.S. Frontend](http://aroundus.projects.luistellez.com)
-- [API](http://api.aroundus.projects.luistellez.com)
+## Directories
+
+`/controllers` — controllers for users and cards.
+
+`/models` — models for users and cards.
+
+`/routes` — routes for users and cards.
+
+## Running the Project
+
+To run the project, you need to have Node.js and MongoDB installed on your computer.
+
+1. Clone the repository.
+
+2. Install the dependencies.
+
+`npm install`
+
+3. Run the server.
+
+`npm run start` — to launch the server.
+
+`npm run dev` — to launch the server with the hot reload feature.
+
+## Dependencies
+
+"express": "^4.18.2",
+"mongoose": "^6.7.1"
+
+## Dev Dependencies
+
+"eslint": "^8.26.0",
+"eslint-config-airbnb-base": "^15.0.0",
+"eslint-plugin-import": "^2.26.0",
+"nodemon": "^2.0.20"
